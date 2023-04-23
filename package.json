@@ -1,0 +1,15 @@
+{
+  "name": "monorepo",
+  "packageManager": "yarn@3.5.0",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "back:build": "yarn workspace back run build",
+    "back:dev": "yarn workspace back run dev",
+    "web:build": "yarn workspace web run build",
+    "web:dev": "yarn workspace web run dev"
+  }
+}
