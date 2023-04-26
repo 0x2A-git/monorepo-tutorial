@@ -3,6 +3,8 @@
   "packageManager": "yarn@3.5.0",
   "devDependencies": {
     "@types/express": "^4.17.17",
+    "nodemon": "^2.0.22",
+    "ts-node": "^10.9.1",
     "typescript": "^5.0.4"
   },
   "dependencies": {
@@ -11,6 +13,6 @@
   },
   "scripts": {
     "build": "tsc",
-    "dev": "tsc --watch"
+    "dev": "nodemon ./src/main.ts"
   }
 }
