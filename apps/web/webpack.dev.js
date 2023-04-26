@@ -24,7 +24,6 @@ module.exports = {
     devMiddleware: {
       index: true,
       mimeTypes: { phtml: 'text/html' },
-      serverSideRender: true,
     },
   },
   devtool: 'inline-source-map',
